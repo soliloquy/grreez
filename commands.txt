@@ -25,3 +25,7 @@ git commit -m "ya message"
 
 git diff
 git diff --staged
+
+git rm <file name>
+
+git add <newfilename> + git rm <oldfilename>
