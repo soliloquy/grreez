@@ -1,0 +1,20 @@
+cd ~/someproject
+git init  initilize project
+
+ls - list files
+ls -la
+ls -la .git
+
+
+git add .                     add changes
+git commit -m "Initial commit"
+
+git config user.name "name"
+git config user.email "e-mail"
+git config --list
+
+
+git log
+
+
+git status
