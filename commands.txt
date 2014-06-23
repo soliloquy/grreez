@@ -14,7 +14,8 @@ git config user.email "e-mail"
 git config --list
 
 
-git log
+git log where the head is pointing at
+git log  --oneline
 
 
 git status
@@ -29,3 +30,17 @@ git diff --staged
 git rm <file name>
 
 git add <newfilename> + git rm <oldfilename>
+
+git mv <filename> <newfilename>
+
+git commit -am "add and commit everything at once"
+
+git ls-tree master or git ls-tree HEAD
+
+git branch
+git branch <new file>
+cat  .git/HEAD
+
+git checkout <branch name>
+
+
