@@ -18,3 +18,10 @@ git log
 
 
 git status
+
+git add <file name.
+git commit -m "ya message"
+
+
+git diff
+git diff --staged
