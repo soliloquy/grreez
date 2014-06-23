@@ -43,6 +43,6 @@ cat  .git/HEAD
 
 git checkout <branch name>
 git show HEAD  show the HEAD where the changes is
-git checkout -b <branch name>
+git checkout -b <branch name> create branch and checkout at the same time
 
 
