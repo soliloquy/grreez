@@ -6,7 +6,7 @@ ls -la
 ls -la .git
 
 
-git add .                     add changes
+git add .    add changes
 git commit -m "Initial commit"
 
 git config user.name "name"
@@ -47,3 +47,4 @@ git checkout -b <branch name> create branch and checkout at the same time
 git diff <master>..<branch>
 git branch --merged added how check if a branch contains everything
 
+git branch -m <oldname> <newname>
