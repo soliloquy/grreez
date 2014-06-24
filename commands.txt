@@ -66,6 +66,8 @@ git branch -a shows both local and remote
 
 git clone <url> <version>
 
+git fetch
+
 
 
 
