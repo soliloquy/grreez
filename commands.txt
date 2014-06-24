@@ -6,7 +6,7 @@ ls -la
 ls -la .git
 
 
-git add .                     add changes
+git add .    add changes
 git commit -m "Initial commit"
 
 git config user.name "name"
@@ -43,5 +43,29 @@ cat  .git/HEAD
 
 git checkout <branch name>
 git show HEAD  show the HEAD where the changes is
+git checkout -b <branch name> create branch and checkout at the same time
+git diff <master>..<branch>
+git branch --merged added how check if a branch contains everything
+
+git branch -m <oldname> <newname> rename branch command
+
+git branch -d <branchname> delete branch
+
+git merge <branch name> merge branches
+git remote add origin <url>
+
+git remote -v
+
+cat .git/config
+
+git push -u origin master
+
+git branch -r shows remote branches
+
+git branch -a shows both local and remote
+
+git clone <url> <version>
+
+
 
 
