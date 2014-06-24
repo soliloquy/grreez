@@ -52,4 +52,18 @@ git branch -m <oldname> <newname> rename branch command
 git branch -d <branchname> delete branch
 
 git merge <branch name> merge branches
+git remote add origin <url>
+
+git remote -v
+
+cat .git/config
+
+git push -u origin master
+
+git branch -r shows remote branches
+
+git branch -a shows both local and remote
+
+
+
 
