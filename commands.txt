@@ -49,4 +49,7 @@ git branch --merged added how check if a branch contains everything
 
 git branch -m <oldname> <newname> rename branch command
 
-git branch -d <branchname>
+git branch -d <branchname> delete branch
+
+git merge <branch name> merge branches
+
